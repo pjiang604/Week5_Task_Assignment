@@ -1,0 +1,57 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  width: 100%;
+  height: 100%;
+  padding: 1em 5em;
+  margin: 0px;
+  box-sizing: border-box;
+  background-color: paleturquoise;
+}
+
+/*Task.jsx*/
+.taskListContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  background: white;
+  margin-bottom: 1em;
+  padding: 1em 2em;
+  box-sizing: border-box;
+  border: 2px solid darkgrey;
+  border-radius: 1em;
+  font-size: 16pt;
+}
+
+.taskContentContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+ul {
+  text-decoration: none;
+  padding: 0px;
+}
+
+button,
+input {
+  background-color: white;
+  border: 1px solid darkgrey;
+  border-radius: 0.5em;
+  font-size: 10pt;
+}
+
+button:hover {
+  background-color: darkgrey;
+}
